@@ -1,0 +1,16 @@
+{
+  "content_scripts": [
+    {
+      "js": [
+		"jquery.js",
+        "content-script.js"
+      ], 
+      "matches": [
+        "http://www.google.com/reader/*"
+      ]
+    }
+  ],
+  "name": "GReader Saver",
+  "version": "1.0",
+  "description": "GReader screen real-estate saver for netbooks"
+}
